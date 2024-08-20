@@ -9,6 +9,9 @@
     "build": "plasmo build",
     "package": "plasmo package",
     "format": "prettier --cache --write .",
+    "mirrors": "nrm use taobao",
+    "stat": "tokei",
+    "tree": "dep-tree entropy .",
     "update": "ncu -u"
   },
   "dependencies": {
@@ -21,12 +24,15 @@
     "@types/node": "22.4.1",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
+    "@dep-tree/cli": "^0.23.0",
     "npm-check-updates": "^17.0.6",
+    "nrm": "^1.2.6",
     "cross-env": "^7.0.3",
     "prettier": "3.3.3",
     "prettier-plugin-organize-imports": "^4.0.0",
     "@ianvs/prettier-plugin-sort-imports": "4.3.1",
     "prettier-plugin-packagejson": "^2.5.1",
+    "tokei": "^0.3.5",
     "typescript": "5.5.4"
   },
   "manifest": {
